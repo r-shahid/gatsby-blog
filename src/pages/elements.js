@@ -10,11 +10,12 @@ import "../style/all.scss"
 
 const ElementsPage = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
-
+  // const posts = data.allMarkdownRemark.edges
+  console.log(data);
   return (
     <Layout title={siteTitle}>
       <SEO
-        title="Elements"
+        title="Links"
       />
 
       <article className="post-content page-template no-image">
