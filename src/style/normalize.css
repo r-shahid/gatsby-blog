@@ -533,3 +533,28 @@ caption {
     "onum" 0, "lnum" 1, "zero" 1;
   /* 1. */
 }
+
+
+#about-header a{
+  color: yellow;
+  /* padding: 20px; */
+  /* font-size: 30px; */
+}
+.img-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.img-container div{
+  width: 60%;
+  /* margin: auto; */
+}
+.about-bottom {
+  text-align: center;
+}
+.about-bottom a {
+  /* display: inline-block; */
+}
+.about-bottom img {
+  width: 40%;
+}
