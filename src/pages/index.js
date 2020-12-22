@@ -23,9 +23,10 @@ const BlogIndex = ({ data }, location) => {
 			{/* <Bio /> */}
 			{data.site.siteMetadata.description && (
 				<header className='page-head'>
-					<h2 className='page-head-title'>
+					<h2 className='page-head-title my-blurb'>
 						{data.site.siteMetadata.description}
 					</h2>
+					<div className='dave-eggers-the-circle'></div>
 				</header>
 			)}
       <h1>latest posts</h1> <a href='#some-posts'>A limited number of posts</a>
