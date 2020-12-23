@@ -65,8 +65,8 @@ input[type="search"]:focus,
 input[type="url"]:focus,
 select:focus,
 textarea:focus {
-    border-color: $color-primary;
-    box-shadow: 0 0 0 1px $color-primary;
+    border-color: #d61212;
+    box-shadow: 0 0 0 1px #b96060;
     @include light-mode {
       border-color: $color-primary-light;
       box-shadow: 0 0 0 1px $color-primary-light;

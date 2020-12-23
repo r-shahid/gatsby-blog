@@ -29,7 +29,16 @@ const BlogIndex = ({ data }, location) => {
 					<div className='dave-eggers-the-circle'></div>
 				</header>
 			)}
-      <h1>latest posts</h1> <a href='#some-posts'>A limited number of posts</a>
+			<div className="post-header">
+				<h1>latest posts</h1>
+			<h6>
+				<a href='#some-posts'>A limited number of posts</a>
+			</h6>
+			<h6>
+				<a href='#posts-by-cat'>Posts by categories</a>
+			</h6>
+			</div>
+			
 			<div className='post-feed'>
 				{/* this is the part that shows all the posts. I need to limit this or find a way to put whatever I want here */}
 				{posts.map(({ node }) => {
@@ -54,21 +63,21 @@ const BlogIndex = ({ data }, location) => {
         ==================================================================================== 
         ====================================================================================
         */}
-				{posts.slice(0,3).map(({ node }) => {
-          let i=0
-							return (
-								<PostCard
-									key={node.fields.slug}
-									count={postCounter}
-									node={node}
-									postClass={`post`}
-								/>
-              );
+				{posts.slice(0, 3).map(({ node }) => {
+					let i = 0;
+					return (
+						<PostCard
+							key={node.fields.slug}
+							count={postCounter}
+							node={node}
+							postClass={`post`}
+						/>
+					);
 
 					postCounter++;
 				})}
 			</div>
-			<h1>Posts by category</h1>
+			<h1 id='posts-by-cat'>Posts by category</h1>
 			<div className='post-feed'>
 				{/* 
         ==================================================================================== 

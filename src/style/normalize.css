@@ -581,7 +581,7 @@ caption {
 /* this was really choppy. do not recommend */
 
 #about-header a{
-  color: yellow;
+  color: #A11A15;
   /* padding: 20px; */
   /* font-size: 30px; */
 }
@@ -612,10 +612,10 @@ caption {
 .contact-page .social-icons a {
   font-size: 40px;
   padding: 0 10px;
-  color: white;
+  color: #ff8859;
 }
 .contact-page .social-icons a:hover {
-  color: red;
+  color: #eb332d;
 }
 /* .grow a:hover {
 	-webkit-transform: scale(1.2);
@@ -642,28 +642,33 @@ caption {
 	margin: auto;
 	margin-top: 20px;
 }
+/* ::placeholder {
+  color: #A11A15;
+} */
 .contactform form input,
 .contactform form textarea {
 	width: 100%;
 	box-sizing: border-box;
 	margin: 5px auto;
 }
+.contactform form textarea {
+  margin-bottom: 0px;
+}
 .contactform form .submit {
-	border: 1px solid hotpink;
 	font-family: 'open sans', sans-serif;
 	font-size: 18px;
 	font-weight: 600;
-	/* font-style: italic; */
 	letter-spacing: 2px;
 	padding: 5px;
 	background-color: black;
-	color: white;
+  color: white;
+  margin-top: 0px;
+  color: #A11A15;
+	background: #ff8859;
 }
 .contactform form .submit:hover {
-	background: yellow;
-	/* border: 1px solid black; */
-	color: black;
-	/* text-shadow: 1px 1px 2px black, -1px -1px 2px black; */
+	background: #A11A15;
+	color: #ff8859;
 }
 
 /* 
@@ -697,3 +702,12 @@ caption {
   left: 400px;
   bottom: 700px;
 } */
+
+
+.post-header {
+  display: flex;
+}
+
+.post-header h6 {
+  padding: 0 10px;
+}
