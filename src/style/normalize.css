@@ -547,7 +547,7 @@ caption {
   position: absolute;
   opacity: .6;
   border-radius: 50%;
-  animation: pulsate 5s infinite ease-in;
+  animation: pulsate 4s infinite ease-in;
   z-index: -1;
   filter: blur(8px)
 }

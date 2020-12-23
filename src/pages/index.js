@@ -65,16 +65,17 @@ const BlogIndex = ({ data }, location) => {
         */}
 				{posts.slice(0, 3).map(({ node }) => {
 					let i = 0;
+					i++;
 					return (
 						<PostCard
 							key={node.fields.slug}
-							count={postCounter}
+							count={i}
 							node={node}
 							postClass={`post`}
 						/>
 					);
 
-					postCounter++;
+					
 				})}
 			</div>
 			<h1 id='posts-by-cat'>Posts by category</h1>
@@ -90,10 +91,10 @@ const BlogIndex = ({ data }, location) => {
 					let tagArr = node.frontmatter.tags;
 					if (tagArr) {
 						if (
-							tagArr.includes('vaporwave') ||
-							tagArr.includes('pink') ||
-							tagArr.includes('blue') ||
-							tagArr.includes('green')
+							tagArr.includes('arts')
+							// tagArr.includes('pink') ||
+							// tagArr.includes('blue') ||
+							// tagArr.includes('green')
 						) {
 							return (
 								<PostCard

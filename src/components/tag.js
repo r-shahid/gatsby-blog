@@ -7,7 +7,6 @@ class Tags extends Component {
     const { tags } = this.props;
     return (
 			<div className='post-card-tags'>
-				<h1>this is the tag.js file</h1>
 				{tags &&
 					tags.map((tag) => (
 						<span key={tag}>
