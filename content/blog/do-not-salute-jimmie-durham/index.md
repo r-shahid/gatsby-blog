@@ -1,5 +1,5 @@
 ---
-title: Do Not Salute - Jimmie Durham at the Whitney
+title: Do Not Salute -- Jimmie Durham at the Whitney
 date: 2018-05-08
 tags: [arts]
 thumbnail: ./center.jpg

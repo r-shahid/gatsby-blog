@@ -10,8 +10,9 @@ class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
-
-    return (
+	// if (post !== null){
+		
+		return(
 			<Layout location={this.props.location} title={siteTitle}>
 				<SEO
 					title={post.frontmatter.title}
@@ -47,15 +48,13 @@ class BlogPostTemplate extends React.Component {
 
 					<footer className='post-content-footer'>
 						<Bio />
-						{/* There are two options for how we display the byline/author-info.
-        If the post has more than one author, we load a specific template
-        from includes/byline-multiple.hbs, otherwise, we just use the
-        default byline. */}
 					</footer>
 				</article>
 			</Layout>
 		);
+					// } else return null
   }
+
 }
 
 export default BlogPostTemplate

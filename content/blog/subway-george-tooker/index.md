@@ -1,8 +1,8 @@
 ---
-title: 'The Subway: A Picture of Urban Isolation'
+title: The Subway -- A Picture of Urban Isolation
 date: 2018-05-19
 tags: [arts]
-description: “I am after painting reality impressed on the mind so hard that it returns as a dream, but I am not after painting dreams as such, or fantasy.”
+description: 'I am after painting reality impressed on the mind so hard that it returns as a dream, but I am not after painting dreams as such, or fantasy.'
 ---
 
 The above quote describes George Tooker’s art style perfectly. At first glance, his paintings appear almost photorealistic, but upon closer inspection, the viewer will notice oddities that defy reality. That is very much the case with The Subway. This is one of Tooker’s best-known paintings, for good reason.

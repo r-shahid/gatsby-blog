@@ -1,5 +1,5 @@
 ---
-title: 'Ad Reinhardt -- Resistance Through Art'
+title: Ad Reinhardt -- Resistance Through Art
 date: 2018-05-08
 tags: [arts]
 thumbnail: ./blue-1.jpg

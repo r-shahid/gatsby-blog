@@ -34,19 +34,34 @@ const ContactPage = ({ data }, location) => {
 							at <a href='mailto:info@rianashahid.com'>info@rianashahid.com</a>
 						</p>
 						<div className='social-icons grow'>
-							<a href='https://instagram.com/rianashahid' target='_blank'>
+							<a
+								href='https://instagram.com/rianashahid'
+								target='_blank'
+								rel='noreferrer'>
 								<FontAwesomeIcon icon={faInstagram} />
 							</a>
-							<a href='https://twitter.com/rianashahid' target='_blank'>
+							<a
+								href='https://twitter.com/rianashahid'
+								target='_blank'
+								rel='noreferrer'>
 								<FontAwesomeIcon icon={faTwitter} />
 							</a>
-							<a href='mailto:info@rianashahid.com' target='_blank'>
+							<a
+								href='mailto:info@rianashahid.com'
+								target='_blank'
+								rel='noreferrer'>
 								<FontAwesomeIcon icon={faEnvelope} />
 							</a>
-							<a href='https://linkedin.com/in/rianashahid' target='_blank'>
+							<a
+								href='https://linkedin.com/in/rianashahid'
+								target='_blank'
+								rel='noreferrer'>
 								<FontAwesomeIcon icon={faLinkedinIn} />
 							</a>
-							<a href='https://github.com/r-shahid' target='_blank'>
+							<a
+								href='https://github.com/r-shahid'
+								target='_blank'
+								rel='noreferrer'>
 								<FontAwesomeIcon icon={faGithub} />
 							</a>
 						</div>

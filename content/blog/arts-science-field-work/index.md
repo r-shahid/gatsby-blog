@@ -1,5 +1,5 @@
 ---
-title: 'Arts & Science in Action: Field Work'
+title: Arts & Science in Action -- Field Work
 date: 2017-08-11
 tags: [education, nyc]
 thumbnail: ./Field-Excursions.png

@@ -1,8 +1,8 @@
 ---
-title: 'David Hockney at the Met'
+title: David Hockney at the Met
 date: 2018-01-02
 tags: [arts]
-thumbnail: ./portrait-of-artist.jpg
+thumbnail: ./title-card.png
 ---
 
 David Hockney is known for his work in contributing to the pop art movement starting after the 1950s, as well as for his love of painting and printmaking.
