@@ -108,6 +108,9 @@ body {
   }
 }
 @media (max-width: 500px) {
+  .page-head {
+    margin-top: 50px;
+  }
   .page-head-title {
     font-size: 2rem;
   }
