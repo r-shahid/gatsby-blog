@@ -537,6 +537,7 @@ caption {
 .my-blurb{
   /* animation: pulsating 1s ease-in infinite reverse; */
   /* overflow: hidden; */
+  /* z-index: -1 */
 }
 .dave-eggers-the-circle {
   background-color: rgb(255, 221, 28);
@@ -558,7 +559,7 @@ caption {
     /* opacity: 1; */
   }
   50% {
-    transform: scale(2,2);
+    transform: scale(2.5,2.5);
     /* opacity: .5; */
   }
   100% {
@@ -710,4 +711,8 @@ caption {
 
 .post-header h6 {
   padding: 0 10px;
+}
+
+.page-head{
+  margin-top: 10px;
 }

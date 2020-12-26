@@ -11,7 +11,7 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
 	// if (post !== null){
-		
+		console.log(post)
 		return(
 			<Layout location={this.props.location} title={siteTitle}>
 				<SEO
@@ -23,6 +23,7 @@ class BlogPostTemplate extends React.Component {
 						`no-image`}`}>
 					<header className='post-content-header'>
 						<h1 className='post-content-title'>{post.frontmatter.title}</h1>
+						<p className='post-content-date'>{post.frontmatter.date}</p>
 					</header>
 
 					{post.frontmatter.description && (

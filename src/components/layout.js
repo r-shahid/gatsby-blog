@@ -35,7 +35,10 @@ const Layout = props => {
 								<Link to={`/tags`}>Categories</Link>
 							</li>
 							<li className='nav-port' role='menuitem'>
-								<a href='https://r-shahid.github.io' target='_blank'>
+								<a
+									href='https://r-shahid.github.io'
+									target='_blank'
+									rel='noreferrer'>
 									Portfolio
 								</a>
 							</li>
