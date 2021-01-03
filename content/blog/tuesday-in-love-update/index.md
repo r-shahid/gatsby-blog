@@ -1,7 +1,7 @@
 ---
 title: UPDATE on Tuesday in Love & A More Accurate Test of Permeability
 date: 2019-07-05
-tags: [lifestle]
+tags: [lifestyle]
 thumbnail: ./cover.png
 ---
 
