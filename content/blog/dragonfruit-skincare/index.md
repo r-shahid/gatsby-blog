@@ -25,3 +25,52 @@ Despite the name, this is a face oil. I have combination/oily skin, so for a lon
 * PRICKLY PEAR SEED OIL – contains high amounts of vitamin E (more than argan oil!) and linoleic acid, which is good for hyperpigmentation and moisturizing the skin. Also includes vitamin K, which has brightening properties, and zinc to reduce redness. 
 
 * TEA TREE OIL – an antioxidant with soothing, anti inflammatory properties. It’s also antimicrobial, so it can help fight acne
+
+![](./rosas.png)
+
+### DE ROSAS
+
+This shea butter-based balm can be used in place of body lotion or leave-in conditioner. Shea butter is solid at room temperature, but warms up and melts quite easily. I like to use [De Rosas](https://www.dragonfruitskincare.com/product-page/de-rosas-body-butter) after showering, on damp skin, as opposed to dry. The formula spreads easily and locks in a lot of moisture. I also like how this feels as a hair product, but I have to warn you that it’s easy to over-do it. I use a pea-sized amount from mid-shaft to ends to help tame frizz and add moisture to the ends of my hair. 
+
+##### Ingredients:
+
+SHEA BUTTER – an emollient that keeps moisture in and has anti-inflammatory properties to soothe irritated, dry skin. Fatty acids (palmitic, stearic, oleic, linoleic, and arachidic) found in shea butter are great for nourishing the skin.
+
+* COCONUT OIL – another moisturizing emollient with antimicrobial properties; also a source of natural fragrance. Coconut oil is a good source of saturated fatty acids. 
+
+* ROSEHIP SEED OIL – see above
+
+* ROSEMARY EXTRACT – a fragrance oil. If you’re into aromatherapy, rosemary can help [lower coritsol levels and reduce stress](https://pubmed.ncbi.nlm.nih.gov/17291597/). Rosemary can also help [prevent the breakdown of acetylcholine](http://www.alzheimersweekly.com/2017/03/rosemary-emulates-aricept-donepezil.html#:~:text=Duke.,help%20people%20suffering%20from%20Alzheimer's.%22), strengthening your memory.
+
+* ROSE GERANIUM OIL – a fragrance with antioxidant properties that can [reduce signs of aging and hyperpigmentation](https://www.healthline.com/health/rose-geranium-oil#benefits) and can [inhibit inflammation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3793238/).
+![](./cacao.png)
+
+##### CACAO MASQUE
+
+This is probably my favorite product of the three! I usually don’t bother with hydrating masks because I feel like I can get similar results with a good moisturizer, but I was pleasantly surprised by this mask. Full of nourishing ingredients, [Cacao Masque](https://www.dragonfruitskincare.com/product-page/cacao-masque-1) claims to fight acne and wrinkles while leaving you with glowing skin. My acne is too stubborn to be eradicated without chemical exfoliants, so I can’t speak on how well it works for that, but my skin felt SO SOFT after washing this off. This is the perfect mask to keep on during a Self Care Bath™ or your nightly Netflix binge. You can even refrigerate this mask for a soothing, cooling effect. The label indicates that you should leave this on for 25 to 30 minutes, but because the ingredients are so nourishing, I had no issues leaving this on for longer (up to an hour).
+
+### INGREDIENTS
+
+* BLUE AGAVE NECTAR – honey’s vegan cousin. Moisturizes the skin and reduces the appearance of wrinkles by making your skin appear more plump and supple.
+
+* CACAO POWDER – contains high levels of antioxidants, which repair and protect the skin. Also has anti-inflammatory properties to fight redness and irritation.
+
+* ROSEHIP SEED OIL – see above
+
+* ROSEMARY – see above
+
+* ROSE GERANIUM – see above
+
+Overall, I was very impressed with Dragon Fruit Skin Care’s products. I definitely will be repurchasing once I use up what I have. If you’re thinking about trying this brand, remember that everyone’s skin is different and just because something worked for me, does not mean it will work for you. Similarly, just because you might know someone who had a bad experience with any of the ingredients listed here, does not mean the same will happen to you. Some people are sensitive to essential oils and fragrances of any kind. But for many others, a fragrance is just that. My point is that only you know your skin. When considering new products, compare its ingredients to those of products you’ve tried before, especially if it’s something that broke you out in the past.
+
+Aside from the products themselves, I also really like their packaging. Everything comes in glass packaging, which is not only easier to recycle but can be more easily reused at home! 
+
+I also want to comment on the brand’s active role in giving back to their communities. In response to the murder of George Floyd, DFSC pledged to donate all proceeds during the month of June to Reclaim the Block, an organization working to defund Minnesota’s police department. In fact, a lot of brands have spoken up and pledged funds to similar organizations. But what I love about Dragon Fruit Skin Care is that this is not new for them! In the past, they have donated to causes working to prevent domestic violence, Dig Deep, an organization providing running water to Americans without, and Las Jefas Veganas, an outreach group providing vegan food and essentials to the homeless on Skid Row.
+
+I’m very excited to see where Dragon Fruit Skin Care goes in the future 🙂 If you want to try any of these products or see what else they offer, click [here](https://www.dragonfruitskincare.com/shop). 
+
+<style rel="stylesheet" type="text/css">
+    img {
+        object-fit: contain;
+    }
+</style>
