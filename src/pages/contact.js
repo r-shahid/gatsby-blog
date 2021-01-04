@@ -20,10 +20,11 @@ import '../style/all.scss';
 
 const ContactPage = ({ data }, location) => {
 	const siteTitle = data.site.siteMetadata.title;
+	// console.log(siteTitle)
 
 	return (
 		<Layout title={siteTitle}>
-			<SEO title='About' keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
+			<SEO title='Contact' keywords={[`blog`, `gatsby`, `lifestyle`, `new york`, `blogger`]} />
 
 			<article className='post-content page-template no-image'>
 				<div className='contact-page'>

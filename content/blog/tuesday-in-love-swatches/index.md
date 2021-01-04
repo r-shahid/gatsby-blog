@@ -1,7 +1,7 @@
 ---
 title: Tuesday In Love Nail Polish Swatches
 date: 2020-08-20
-tags: [lifestle, beauty]
+tags: [lifestyle, beauty]
 thumbnail: ./pin.png
 ---
 [Tuesday in Love](https://www.tuesdayinlove.com/) is a Muslim-owned cosmetics brand most-known for their permeable nail polishes. Permeability is important for Muslims because we need water to pass through to the nail bed to complete wudhu, or ablution, before prayers. While other halal-certified nail polishes only claim to be “breathable” (like a contact lens), Tuesday in Love polishes actually let water through, which makes them superior in my book.

@@ -707,15 +707,16 @@ caption {
 
 .post-header {
   display: flex;
+  align-items: baseline;
 }
 
 .post-header h6 {
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
-/* .page-head{
-  margin-top: 30px;
-} */
+.post-header h1 {
+  margin-right: 20px;
+}
 
 .hamburger {
   background-color: transparent;

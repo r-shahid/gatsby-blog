@@ -12,13 +12,24 @@ import "../style/all.scss"
 const BlogIndex = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
-  let postCounter = 0
-
+  let artpostCounter = 0
+  let latestpostCounter = 0
+  let bookpostCounter = 0
+  let lifestylepostCounter = 0
+// console.log(posts)
+  const artPosts = posts.filter((post) => post.node.frontmatter.tags.includes("arts"))
+  const bookPosts = posts.filter((post) =>
+		post.node.frontmatter.tags.includes('books')
+	);
+  const lifestylePosts = posts.filter((post) =>
+		post.node.frontmatter.tags.includes('lifestyle')
+	);
+// console.log(artPosts)
   return (
 		<Layout title={siteTitle}>
 			<SEO
-				title='Blog'
-				keywords={[`devlog`, `blog`, `gatsby`, `javascript`, `react`]}
+				title='Hello'
+				keywords={[`riana shahid`, `blog`, `gatsby`, `new york`, `web developer`]}
 			/>
 			{/* <Bio /> */}
 			{data.site.siteMetadata.description && (
@@ -29,19 +40,24 @@ const BlogIndex = ({ data }, location) => {
 					<div className='dave-eggers-the-circle'></div>
 				</header>
 			)}
-			<div className="post-header">
+			<div className='post-header'>
 				<h1>latest posts</h1>
-			<h6>
-				<a href='#some-posts'>A limited number of posts</a>
-			</h6>
-			<h6>
-				<a href='#posts-by-cat'>Posts by categories</a>
-			</h6>
+				<h6>
+					<a href='#art-posts'>arts</a>
+				</h6>
+				<h6>
+					<a href='#book-posts'>books</a>
+				</h6>
+				<h6>
+					<a href='#lifestyle-posts'>lifestyle</a>
+				</h6>
 			</div>
-			
+
 			<div className='post-feed'>
 				{/* this is the part that shows all the posts. I need to limit this or find a way to put whatever I want here */}
-				{posts.map(({ node }) => {
+
+				{/* below is the original code */}
+				{/* {posts.map(({ node }) => {
 					// console.log(node)
 					postCounter++;
 					return (
@@ -52,74 +68,60 @@ const BlogIndex = ({ data }, location) => {
 							postClass={`post`}
 						/>
 					);
-				})}
-			</div>
-			<h1 id='some-posts'>a limited number of posts</h1>
-			<div className='post-feed'>
-				{/* 
-        ==================================================================================== 
-        ==================================================================================== 
-                               this div shows only a few posts 
-        ==================================================================================== 
-        ====================================================================================
-        */}
-				{posts.slice(0, 3).map(({ node }) => {
-					let i = 0;
-					i++;
+				})} */}
+				{posts.slice(0, 9).map(({ node }) => {
+					latestpostCounter++;
 					return (
 						<PostCard
 							key={node.fields.slug}
-							count={i}
+							count={latestpostCounter}
 							node={node}
 							postClass={`post`}
 						/>
 					);
-
-					
 				})}
 			</div>
-			<h1 id='posts-by-cat'>Posts by category</h1>
+			<h1 id='art-posts'>arts</h1>
 			<div className='post-feed'>
-				{/* 
-        ==================================================================================== 
-        ==================================================================================== 
-                               this div filters by tag 
-        ==================================================================================== 
-        ====================================================================================
-        */}
-				{posts.map(({ node }) => {
-					let tagArr = node.frontmatter.tags;
-					if (tagArr) {
-						if (
-							tagArr.includes('arts')
-							// tagArr.includes('pink') ||
-							// tagArr.includes('blue') ||
-							// tagArr.includes('green')
-						) {
-							return (
-								<PostCard
-									key={node.fields.slug}
-									count={postCounter}
-									node={node}
-									postClass={`post`}
-								/>
-							);
-						}
-					}
-
-					postCounter++;
-					// if (node.frontmatter.tags.includes("pink")){
-					// return (
-					//             <PostCard
-					//               key={node.fields.slug}
-					//               count={postCounter}
-					//               node={node}
-					//               postClass={`post`}
-					//             />
-					//           );
-					// }
+				{artPosts.slice(0, 6).map(({ node }) => {
+					artpostCounter++;
+					return (
+						<PostCard
+							key={node.fields.slug}
+							count={artpostCounter}
+							node={node}
+							postClass={`post`}
+						/>
+					);
 				})}
-				{/* <h1>this is my home page</h1> */}
+			</div>
+			<h1 id='book-posts'>books</h1>
+			<div className='post-feed'>
+				{bookPosts.slice(0, 6).map(({ node }) => {
+					bookpostCounter++;
+					return (
+						<PostCard
+							key={node.fields.slug}
+							count={bookpostCounter}
+							node={node}
+							postClass={`post`}
+						/>
+					);
+				})}
+			</div>
+			<h1 id='lifestyle-posts'>lifestyle</h1>
+			<div className='post-feed'>
+				{lifestylePosts.slice(0, 6).map(({ node }) => {
+					lifestylepostCounter++;
+					return (
+						<PostCard
+							key={node.fields.slug}
+							count={lifestylepostCounter}
+							node={node}
+							postClass={`post`}
+						/>
+					);
+				})}
 			</div>
 		</Layout>
 	);
