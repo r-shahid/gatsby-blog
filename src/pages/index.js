@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
+// import { Redirect } from "react-router-dom"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -29,7 +30,13 @@ const BlogIndex = ({ data }, location) => {
 		<Layout title={siteTitle}>
 			<SEO
 				title='Hello'
-				keywords={[`riana shahid`, `blog`, `gatsby`, `new york`, `web developer`]}
+				keywords={[
+					`riana shahid`,
+					`blog`,
+					`gatsby`,
+					`new york`,
+					`web developer`,
+				]}
 			/>
 			{/* <Bio /> */}
 			{data.site.siteMetadata.description && (
@@ -50,6 +57,9 @@ const BlogIndex = ({ data }, location) => {
 				</h6>
 				<h6>
 					<a href='#lifestyle-posts'>lifestyle</a>
+				</h6>
+				<h6>
+					<a href='http://localhost:8000/allposts'>see all posts</a>
 				</h6>
 			</div>
 

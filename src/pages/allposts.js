@@ -8,11 +8,10 @@ import PostCard from "../components/postCard"
 import "../style/normalize.css"
 import "../style/all.scss"
 
-const AllLinks = ({ data }, location) => {
+const AllBlogIndex = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
-  let recentpostCounter = 0
-  console.log(posts)
+  let allpostCounter = 0
 
   return (
 		<Layout title={siteTitle}>
@@ -27,22 +26,32 @@ const AllLinks = ({ data }, location) => {
 				]}
 			/>
 
-			<h1>latest posts</h1>
+			<h1>all posts</h1>
 			<div className='post-feed'>
-				{posts.slice(0,3).map(({ node }) => {
-					recentpostCounter++;
+				{/* this is the part that shows all the posts. I need to limit this or find a way to put whatever I want here */}
+
+				{/* below is the original code */}
+				{/* {posts.map(({ node }) => {
+					// console.log(node)
+					postCounter++;
 					return (
-						<>
-							<a href={`http://localhost:8000${node.fields.slug}`} target="_blank">
-								<h1>{node.frontmatter.title}</h1>
-							</a>
-							{/* <PostCard
+						<PostCard
 							key={node.fields.slug}
-							count={recentpostCounter}
+							count={postCounter}
 							node={node}
 							postClass={`post`}
-						/> */}
-						</>
+						/>
+					);
+				})} */}
+				{posts.map(({ node }) => {
+					allpostCounter++;
+					return (
+						<PostCard
+							key={node.fields.slug}
+							count={allpostCounter}
+							node={node}
+							postClass={`post`}
+						/>
 					);
 				})}
 			</div>
@@ -88,7 +97,7 @@ export default props => (
   <StaticQuery
     query={indexQuery}
     render={data => (
-      <AllLinks location={props.location} props data={data} {...props} />
+      <AllBlogIndex location={props.location} props data={data} {...props} />
     )}
   />
 )
