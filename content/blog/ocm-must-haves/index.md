@@ -2,7 +2,6 @@
 title: Riana’s Picks from OCM – MUST HAVES for College Students!
 date: 2020-09-07
 tags: [lifestyle, education]
-thumbnail: 
 ---
 ![](./pin.png)
 
